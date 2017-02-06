@@ -54,8 +54,7 @@ Then following techniques are used to identify and determine car part from non-c
 3. Create Heatmap
 4. Remove Duplicates and Find Center of Car
 5. Estimate Bounding box
-
-
+![img](examples/vehicle-tracking-sample.png)
 
 
 ## Data
@@ -67,6 +66,7 @@ Here are links to the labeled data for [vehicle](https://s3.amazonaws.com/udacit
 2. The pipeline does not work well for more complicated images with cases.   Adding smoothing methods may be helpful in increasing accuracy in predicting shading cases and reduce false positive detection.
 3. More real-time information may be added for analysis/diagnosis purpose.  Potentially, we could combine the lane finding methods with vehicle detection methods in real-time vehicle monitoring.
 
+![img](examples/vehicle-tracking-sample.png)
 
 
 Reference
