@@ -54,7 +54,6 @@ Then following techniques are used to identify and determine car part from non-c
 3. Create Heatmap
 4. Remove Duplicates and Find Center of Car
 5. Estimate Bounding box
-![img](examples/vehicle-tracking-sample.png)
 
 
 ## Data
