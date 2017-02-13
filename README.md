@@ -76,7 +76,7 @@ Then a threshold is added to filter out the False Positives. From the observatio
 #### 4.5 Estimate Bounding box
 A bounding box is estimated by drawing a rectangular shape around the labeled area back to the original image.  
 
-![img](output_images/fianl_windows.jpg)
+![img](output_images/final_windows.jpg)
 
 
 ## Data
@@ -101,7 +101,7 @@ The second problem is that there are a lot of false positives, which mean classi
 
 
 ![img](examples/vehicle-tracking-sample.png)  
-  
+
 Live Demo:  https://youtu.be/L0ng5JdNeCU   
 
 
