@@ -74,7 +74,10 @@ To drop the duplicates, a heatmap is built from combining the windows which have
 Then a threshold is added to filter out the False Positives. From the observation on the performance of the binary classifier,  False Positives are not consistent over regions and time.  Then use 'label' to find all the disconnected areas in the heatmap.
 
 #### 4.5 Estimate Bounding box
-A bounding box is estimated by drawing a rectangular shape around the labeled area.
+A bounding box is estimated by drawing a rectangular shape around the labeled area back to the original image.  
+
+![img](output_images/fianl_windows.jpg)
+
 
 ## Data
 Here are links to the labeled data for [vehicle](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip) and [non-vehicle](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip) examples to train your classifier.  These example images come from a combination of the [GTI vehicle image database](http://www.gti.ssr.upm.es/data/Vehicle_database.html), the [KITTI vision benchmark suite](http://www.cvlibs.net/datasets/kitti/), and examples extracted from the project video itself.   You are welcome and encouraged to take advantage of the recently released [Udacity labeled dataset](https://github.com/udacity/self-driving-car/tree/master/annotations) to augment your training data.  
