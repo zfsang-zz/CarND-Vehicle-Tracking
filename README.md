@@ -30,7 +30,7 @@ Implementation details
 ---
 ### 1. Data Preprocessing
 
-The easiest way to do this is to investigate an image where the lane lines are straight, and find four points lying along the lines that, after perspective transform, make the lines look straight and vertical from a bird's eye view perspective(top down view).
+Shuffle the images cropped from different video streams and split to training and testing dataset.
 
 ### 2. Feature Extraction
 Three types of features (2628 features in total) are used for the vehicle detection:
@@ -100,7 +100,9 @@ The second problem is that there are a lot of false positives, which mean classi
 4. Deep learning may be used to improve the performance over complicated road situations.
 
 
-![img](examples/vehicle-tracking-sample.png)
+![img](examples/vehicle-tracking-sample.png)  
+  
+Live Demo:  https://youtu.be/L0ng5JdNeCU   
 
 
 Reference
